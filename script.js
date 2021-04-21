@@ -52,6 +52,6 @@ function showErrors(errorMessages) {
     let liText = document.createTextNode(errorMessage);
     li.appendChild(liText);
     errorList.append(li);
-    errors.classList.add("show");
   });
+  errors.classList.add("show");
 }
